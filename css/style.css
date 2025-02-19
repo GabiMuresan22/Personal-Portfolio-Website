@@ -190,7 +190,35 @@ margin: 1.5rem auto;
   background-color: #483ED0;
 }
 
+/* Work Section */
 
+.work {
+  height: 600px;
+  margin-top: 1.5rem;
+}
+
+.work h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.work .work-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  height: 2rem;
+  margin-bottom: 2rem;
+  gap: 0.5rem;
+}
+
+.work .work-menu li a {
+  color: #333;
+  border: 1px solid #333;
+  padding: 0.8rem 1.8rem;
+  border-radius: 30px;
+}
 
 
 
