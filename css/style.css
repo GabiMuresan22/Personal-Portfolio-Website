@@ -20,6 +20,7 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
+  background-color: #f5f5f5;
 }
 
 a {
@@ -32,6 +33,36 @@ ul {
 
 img {
   max-width: 100%;
+}
+
+/* Utilities Classes */
+
+.btn {
+  display: block;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn-primary {
+  background-color: #1f1e26;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #cacaca;
+  color: #1f1e26;
+}
+
+.line-break {
+  width: 95%;
+  height: 2px;
+  color: #333;
 }
 
 /* Container */
@@ -84,12 +115,84 @@ margin: 1.5rem auto;
   align-items: center;
   justify-content: space-between;
   border: 1px solid #333;
-  padding: 1.2rem;
+  padding: 1rem;
   border-radius: 40px;
 }
 
 .header .navbar .main-menu li a {
   padding: 0.5rem 1rem;
   color: #333;
+  cursor: pointer;
 }
+
+/* Hero Section */
+
+.hero {
+  height: 600px;
+  position: relative;
+}
+
+.hero .main-header {
+  max-width: 500px;
+  text-align: left;
+}
+
+.hero h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.hero p {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;  
+}
+
+.hero .buttons {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.hero .buttons i {
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #483ED0;
+}
+
+.hero .about {
+  max-width: 600px;
+  position: absolute;
+  top: 220px;
+  right: 0;
+ 
+}
+
+.hero .about p {
+  font-size: 1.2rem;
+}
+
+.hero .about .download {
+  text-decoration: underline;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.hero .about i {
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #483ED0;
+}
+
+
+
+
+
 
