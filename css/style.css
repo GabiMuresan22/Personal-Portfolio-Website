@@ -57,6 +57,9 @@ img {
 .btn-secondary {
   background-color: #cacaca;
   color: #1f1e26;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border-radius: 30px;
 }
 
 .line-break {
@@ -220,14 +223,42 @@ margin: 1.5rem auto;
   border-radius: 30px;
 }
 
+.work .work-menu li a.btn-primary {
+  color: #fff;
+}
+
 .work .container .grid-container {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 1rem;
+}
+
+.work .container .grid-container .card-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 1rem;
+} 
+
+.work .container .grid-container .card-item .project-details {
+  padding: 1rem;
+  width: 40%;
+}
+
+.work .container .grid-container .card-item .project-details .project-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .work .grid-container .card-item img {
-  max-width: 50px;
-  height: 50px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.work button {
+  text-align: center;
 }
 
 
