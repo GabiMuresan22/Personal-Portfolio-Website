@@ -62,7 +62,13 @@ img {
   margin: 1rem;
   border-radius: 30px;
   cursor: pointer;
+  border: none;
 }
+
+.btn-secondary:focus {
+  outline: none;
+}
+
 
 .line-break {
   width: 95%;
@@ -263,5 +269,7 @@ margin: 1.5rem auto;
 .work button {
   margin: 2rem 0;
 }
+
+/* Solution Section */
 
 
