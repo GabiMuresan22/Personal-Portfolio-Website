@@ -295,6 +295,8 @@ margin-bottom: 2rem;
   font-size: 0.8rem;
   color: #6a6a6b;
   margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #6a6a6b;
 }
 
 .solution .card .card-item-solution .hr {
@@ -339,6 +341,56 @@ margin-bottom: 2rem;
   font-size: 0.8rem;
   font-weight: 400;
   margin-bottom: 2rem;
+}
+
+.solution .details {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 350px;
+  height: 150px;
+}
+
+.solution .details img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.solution .small-text a {
+  color: #fff;
+  text-decoration: underline;
+  margin-left: 0.5rem;
+}
+
+/* Footer Section */
+
+.footer {
+  background-color: #1f1e26;
+}
+
+.footer .container {
+padding-bottom: 2rem;
+}
+
+.footer .social-media {
+  color: #6a6a6b;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #6a6a6b;
+  padding-bottom: 0.5rem;
+}
+
+.footer .social-media-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+}
+
+.footer .social-media-menu li a {
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 
