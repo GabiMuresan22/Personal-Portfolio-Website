@@ -71,8 +71,8 @@ img {
 
 .line-break {
   width: 95%;
-  height: 2px;
-  color: #333;
+  height: 1px;
+  color: #cacacc;
 }
 
 /* Container */
@@ -286,7 +286,7 @@ margin: 1.5rem auto;
 .solution .card {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-grid-gap: 1rem;
+grid-gap: 3rem;
 padding-bottom: 2rem;
 margin-bottom: 2rem;
 }
@@ -324,6 +324,22 @@ margin-bottom: 2rem;
   margin-bottom: 2rem;
 }
 
+.solution .price {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.solution .price small {
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+.solution .small-text {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
 
 
 
