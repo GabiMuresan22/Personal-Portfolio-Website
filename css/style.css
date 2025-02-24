@@ -377,7 +377,31 @@ padding-bottom: 2rem;
   cursor: pointer;
 }
 
+/* Media Queries */
 
+@media (max-width: 600px) {
+  .hero .about {
+    padding: 0 1.5rem;
+  }
+
+  .solution .card {
+  grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 580px) {
+  .hero .about {
+    margin-top: 1rem;
+  }
+
+  .work .container .grid-container {
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .footer .social-media-menu {
+    width: 300px;
+  }
+}
 
 
 
