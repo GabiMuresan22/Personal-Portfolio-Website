@@ -227,20 +227,20 @@ margin: 1.5rem auto;
 
 .work .container .grid-container .card-item {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
 } 
 
 .work .container .grid-container .card-item .project-details {
   padding: 1rem;
-  width: 40%;
 }
 
 .work .container .grid-container .card-item .project-details .project-title {
   font-weight: 600;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
+  text-align: left;
 }
 
 .work .grid-container .card-item img {
