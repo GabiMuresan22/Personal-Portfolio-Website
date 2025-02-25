@@ -120,7 +120,7 @@ margin: 1.5rem auto;
   font-weight: 700;
 }
 
-.header .navbar .main-menu {
+.header .navbar .main-menu .main-menu-items {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -129,7 +129,7 @@ margin: 1.5rem auto;
   border-radius: 40px;
 }
 
-.header .navbar .main-menu li a {
+.header .navbar .main-menu .main-menu-items li a {
   padding: 0.5rem 1rem;
   color: #333;
   cursor: pointer;
@@ -385,11 +385,13 @@ padding-bottom: 2rem;
 
 /* Media Queries */
 
-@media (max-width: 600px) {
-
+@media (max-width: 768px) {
   .header .container .navbar .main-menu {
     display: none;
   }
+}
+
+@media (max-width: 600px) {
 
   .hero .about {
     padding: 0 1.5rem;
