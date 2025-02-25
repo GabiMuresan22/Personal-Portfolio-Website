@@ -81,6 +81,54 @@ img {
 
 /* Header */
 
+.header {
+  height: 6rem;
+}
+
+.header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header .info-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0.8rem 0;
+}
+
+.header .info-name .logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.header .info-name .name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.header .main-menu-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #1f1e26;
+  padding: 1rem 1.2rem;
+  margin-top: 1rem;
+  border-radius: 30px;
+}
+
+.header .main-menu-items li a {
+  color: #1f1e26;
+  padding: 1rem 1.2rem;
+  cursor: pointer;
+}
+
+
+
 
 
 
