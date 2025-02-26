@@ -51,6 +51,10 @@ img {
   background-color: #1f1e26;
   color: #fff;
   cursor: pointer;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
 }
 
 .btn-primary:focus {
@@ -127,13 +131,34 @@ img {
   cursor: pointer;
 }
 
-
-
-
-
-
 /* Hero Section */
 
+.hero .hero-header {
+  margin-top: 1rem;
+  padding: 1rem 0;
+}
+
+.hero .hero-header h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.hero .hero-header p {
+  padding: 1rem 0;
+}
+
+.hero .hero-info {
+  margin-top: 1rem;
+  font-family: inherit;
+}
+
+.hero .hero-info a {
+  text-decoration: underline;
+  color: #333;
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
 
 
 /* Work Section */
