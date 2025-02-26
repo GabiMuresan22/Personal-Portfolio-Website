@@ -334,6 +334,10 @@ padding-bottom: 2rem;
 
 /* Media Queries */
 
+@media (max-width: 776px) {
+  
+}
+
 @media (max-width: 600px) {
 
   
