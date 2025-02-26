@@ -89,6 +89,10 @@ img {
 
 /* Header */
 
+.header {
+  margin: 1rem auto;
+}
+
 .header .navbar {
   display: flex;
   align-items: center;
