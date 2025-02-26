@@ -367,6 +367,10 @@ padding-bottom: 2rem;
   .header .navbar {
     flex-direction: column;
   }
+
+  .header .navbar .main-menu {
+    margin: 1rem auto;
+  }
   
 }
 
@@ -384,6 +388,12 @@ padding-bottom: 2rem;
 
 @media (max-width: 580px) {
 
+  .header .main-menu-items li a {
+    color: #1f1e26;
+    padding: 1rem 0.7rem;
+    cursor: pointer;
+}
+
   .work .work-menu li a {
     color: #333;
     border: 1px solid #333;
@@ -392,7 +402,8 @@ padding-bottom: 2rem;
   }
 
  .footer .social-media-menu {
-    width: 300px;
+    width: 250px;
+    margin: 0 auto;
   }
 }
 
