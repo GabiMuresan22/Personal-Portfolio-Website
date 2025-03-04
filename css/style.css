@@ -139,8 +139,9 @@ img {
 }
 
 .hero .hero-header h2 {
-  font-size: 1.8rem;
-  font-weight: 600;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .hero .hero-header p {
