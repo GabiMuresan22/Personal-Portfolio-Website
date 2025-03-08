@@ -234,6 +234,10 @@ img {
   margin: 2rem 0;
 }
 
+.work button a:visited {
+  color: #333;
+}
+
 /* Solution Section */
 
 .solution {
