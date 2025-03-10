@@ -388,7 +388,7 @@ margin-bottom: 2rem;
 
 .footer .social-media {
   color: #6a6a6b;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
   border-bottom: 1px solid #6a6a6b;
   padding-bottom: 0.5rem;
 }
@@ -451,6 +451,17 @@ margin-bottom: 2rem;
     padding: 0.5rem 1.2rem;
     border-radius: 30px;
   }
+
+.contact-form {
+  width: 100%;
+  margin: 3rem auto;
+  padding-bottom: 2rem;
+}
+
+
+.contact-form textarea {
+  height: 100px;
+}
 
  .footer .social-media-menu {
     width: 250px;
