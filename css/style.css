@@ -455,6 +455,10 @@ padding-bottom: 2rem;
 }
 
 
+.contact-form textarea {
+  height: 100px;
+}
+
  .footer .social-media-menu {
     width: 250px;
     margin: 0 auto;
