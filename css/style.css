@@ -71,6 +71,14 @@ img {
   cursor: pointer;
 }
 
+.btn-secondary a {
+  color: #333;
+}
+
+.btn-secondary a:visited {
+  color: #333;
+}
+
 .btn-secondary:focus {
   outline: none;
 }
@@ -336,7 +344,6 @@ margin-bottom: 2rem;
 
 .contact-form {
   width: 100%;
-  height: 500px;
   margin: 3rem auto;
 }
 
@@ -376,10 +383,7 @@ margin-bottom: 2rem;
 
 .footer {
   background-color: #1f1e26;
-}
-
-.footer .container {
-padding-bottom: 2rem;
+  padding: 1rem 0;
 }
 
 .footer .social-media {
