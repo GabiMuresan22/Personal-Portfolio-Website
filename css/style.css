@@ -51,7 +51,7 @@ img {
   background-color: #1f1e26;
   color: #fff;
   cursor: pointer;
-  padding: 1rem 2rem;
+  padding: 0.8rem 1rem;
   margin: 1rem;
   border-radius: 30px;
   cursor: pointer;
@@ -169,6 +169,16 @@ img {
   font-weight: bold;
 }
 
+.hero .btn-primary a {
+  background-color: #1f1e26;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.8rem 1.2rem;
+  margin: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
 /* Work Section */
 
 .work {
@@ -276,11 +286,6 @@ margin-bottom: 2rem;
   border-bottom: 1px solid #6a6a6b;
 }
 
-/* .solution .card .card-item-solution .hr {
-  height: 1px;
-  border-color: #333;
-}  */
-
 .solution .card .card-item-solution h3 {
   font-size: 1.5rem;
 }
@@ -387,7 +392,7 @@ margin-bottom: 2rem;
 }
 
 .footer .social-media {
-  color: #6a6a6b;
+  color: #fff;
   margin: 1rem 0;
   border-bottom: 1px solid #6a6a6b;
   padding-bottom: 0.5rem;
