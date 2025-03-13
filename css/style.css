@@ -267,13 +267,13 @@ img {
 .solution h3 {
   font-size: 2rem;
   font-weight: 400;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .solution .card {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-grid-gap: 3rem;
+grid-gap: 2rem;
 padding-bottom: 2rem;
 margin-bottom: 2rem;
 }
@@ -431,6 +431,10 @@ margin-bottom: 2rem;
 }
 
 @media (max-width: 600px) {
+
+  .hero .hero-info {
+    display: none;
+  }
 
   
   .work .container .grid-container {
