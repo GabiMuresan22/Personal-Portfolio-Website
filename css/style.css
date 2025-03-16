@@ -51,7 +51,6 @@ ul {
   padding: 0.8rem 1rem;
   margin: 1rem;
   border-radius: 30px;
-  cursor: pointer;
 }
 
 .btn-primary:focus {
@@ -59,13 +58,12 @@ ul {
 }
 
 .btn-secondary {
-  display: inline-block;
   background-color: #f6f3f3;
   color: #1f1e26;
-  padding: 1rem 2rem;
+  cursor: pointer;
+  padding: 0.8rem 1rem;
   margin: 1rem;
   border-radius: 30px;
-  cursor: pointer;
 }
 
 .btn-secondary a {
@@ -171,8 +169,6 @@ ul {
   color: #fff;
   cursor: pointer;
   padding: 0.8rem 1.2rem;
-  margin: 1rem;
-  border-radius: 30px;
 }
 
 
@@ -245,8 +241,8 @@ ul {
 
 .work .btn-secondary a {
   cursor: pointer;
-  padding: 0.5rem 0.8rem;
-  margin: 0.5rem;
+  padding: 0.8rem 1.2rem;
+  /* margin: 1rem 0.8rem; */
 }
 
 .work button a:visited {
@@ -334,6 +330,12 @@ margin-bottom: 2rem;
   width: 60px;
   height: 60px;
   border-radius: 50%;
+}
+
+.solution .details .btn-secondary a {
+  cursor: pointer;
+  padding: 0.8rem 1.2rem;
+  /* margin: 1rem 0.8rem; */
 }
 
 .solution .small-text a {
