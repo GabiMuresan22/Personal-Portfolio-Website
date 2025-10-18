@@ -272,14 +272,6 @@ padding-bottom: 2rem;
 margin-bottom: 2rem;
 }
 
-.solution .card .card-item-solution .number {
-  font-size: 0.8rem;
-  color: #f5f5f5;
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid #6a6a6b;
-}
-
 .solution .card .card-item-solution h3 {
   font-size: 1.5rem;
 }
