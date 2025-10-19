@@ -11,6 +11,8 @@ Add this code inside the `<head>` section of your `index.html` file, before the 
 
 **Important**: Replace the placeholder values (marked with `YOUR_...`) with your actual business information.
 
+**Phone Number Format**: For Belgian numbers, use the format: +32-X-XXX-XX-XX (landline) or +32-XXX-XX-XX-XX (mobile).
+
 ```html
 <!-- Structured Data for Local Business -->
 <script type="application/ld+json">

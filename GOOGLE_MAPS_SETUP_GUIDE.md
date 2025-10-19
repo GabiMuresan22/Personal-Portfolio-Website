@@ -125,7 +125,7 @@ Professional web developer in Roeselare, Belgium specializing in responsive web 
 Create a list of your services with descriptions:
 1. **Responsive Web Design**
    - Description: Mobile-first, responsive websites
-   - Price: Starting from €X (optional)
+   - Price: Starting from €[YOUR_PRICE] (optional)
 
 2. **Custom Web Development**
    - Description: Tailored web applications and solutions
@@ -201,7 +201,7 @@ Add this code in the `<head>` section of your `index.html`:
 ```
 
 **Note**: Update the placeholders with your actual information:
-- Telephone number
+- Telephone number (Belgian format: +32-X-XXX-XX-XX or +32-XXX-XX-XX-XX for mobile)
 - Street address
 - Actual GPS coordinates (you can find these on Google Maps)
 
