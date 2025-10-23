@@ -26,7 +26,12 @@ out/
 coverage/
 
 # Editors/IDEs
-.vscode/
+# Ignore all VS Code settings by default, but keep common project files
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
 .idea/
 *.code-workspace
 
