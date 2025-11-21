@@ -443,6 +443,106 @@ margin-bottom: 2rem;
 }
 
 
+/* --- NEW PORTFOLIO STYLES --- */
+
+/* Filters */
+.work-menu {
+  justify-content: center !important; /* Center the tabs */
+  gap: 1rem;
+  margin-bottom: 3rem !important;
+}
+
+.work-menu li {
+  cursor: pointer;
+  padding: 0.6rem 1.5rem;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.work-menu li:hover,
+.work-menu li.active {
+  background-color: #1f1e26;
+  color: #fff;
+  border-color: #1f1e26;
+}
+
+/* Card Improvements */
+.grid-container .card-item {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+
+.grid-container .card-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Image Overlay Effect */
+.card-image-link {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.card-image-link img {
+  width: 100%;
+  height: 220px; /* Enforce consistent height */
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.card-image-link:hover img {
+  transform: scale(1.05);
+}
+
+/* Details Section */
+.project-details {
+  padding: 1.5rem !important;
+  text-align: left;
+}
+
+.project-title {
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.5rem;
+  color: #1f1e26;
+}
+
+.project-desc {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+/* Tech Tags (The Pro Touch) */
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.tech-tags span {
+  font-size: 0.75rem;
+  background-color: #f3f4f6;
+  color: #555;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+/* Hide elements when filtered out */
+.work .container .grid-container .card-item.hide {
+  display: none !important;
+}
+
 /* Media Queries */
 
 @media (max-width: 776px) {

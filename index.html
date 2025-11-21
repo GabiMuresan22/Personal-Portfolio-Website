@@ -95,72 +95,122 @@
             <li><a href="">Development</a></li>
           </ul>
           <div class="grid-container">
-            <div class="card-item">
+            <!-- Project 1: Movie Database -->
+            <div class="card-item" data-category="development">
               <a
                 href="https://super-jalebi-5cb658.netlify.app/"
                 target="_blank"
+                class="card-image-link"
               >
-                <img src="./img/flixx.webp" alt="Flixx App"
+                <img src="./img/flixx.webp" alt="Movie Database with Async API Integration"
               /></a>
 
               <div class="project-details">
-                <p class="project-title">Fillx App</p>
-                <p class="details">Development</p>
+                <p class="project-title">Movie Database with Async API Integration</p>
+                <p class="project-desc">Real-time movie search and display system using TMDb API with async JavaScript and responsive design.</p>
+                <div class="tech-tags">
+                  <span>JavaScript</span>
+                  <span>Async/Await</span>
+                  <span>REST API</span>
+                  <span>HTML/CSS</span>
+                </div>
               </div>
             </div>
-            <div class="card-item">
-              <a href="https://omnifood-gabi.netlify.app/" target="_blank">
-                <img src="./img/omnifood.webp" alt="Omnifood website" />
+
+            <!-- Project 2: AI Food Subscription -->
+            <div class="card-item" data-category="development">
+              <a href="https://omnifood-gabi.netlify.app/" target="_blank" class="card-image-link">
+                <img src="./img/omnifood.webp" alt="AI-Driven Food Subscription Platform" />
               </a>
 
               <div class="project-details">
-                <p class="project-title">Omnifood</p>
-                <p class="details">Development</p>
+                <p class="project-title">AI-Driven Food Subscription Platform</p>
+                <p class="project-desc">Smart meal planning platform with personalized recommendations and seamless checkout experience.</p>
+                <div class="tech-tags">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>JavaScript</span>
+                  <span>Responsive Design</span>
+                </div>
               </div>
             </div>
-            <div class="card-item">
-              <a href="https://leno-website-mu.vercel.app/" target="_blank"
-                ><img src="./img/leno.webp" alt="Leno Website"
+
+            <!-- Project 3: SaaS Landing Page -->
+            <div class="card-item" data-category="design">
+              <a href="https://leno-website-mu.vercel.app/" target="_blank" class="card-image-link"
+                ><img src="./img/leno.webp" alt="High-Conversion SaaS Landing Page"
               /></a>
 
               <div class="project-details">
-                <p class="project-title">Leno</p>
-                <p class="details">Design + Development</p>
+                <p class="project-title">High-Conversion SaaS Landing Page</p>
+                <p class="project-desc">Conversion-optimized landing page with modern UI/UX design patterns and smooth animations.</p>
+                <div class="tech-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>UI/UX</span>
+                </div>
               </div>
             </div>
-            <div class="card-item">
+
+            <!-- Project 4: Educational Platform -->
+            <div class="card-item" data-category="design">
               <a
                 href="https://tutor-website-gilt-seven.vercel.app/"
                 target="_blank"
-                ><img src="./img/tutor.webp" alt="Tutor Website"
+                class="card-image-link"
+                ><img src="./img/tutor.webp" alt="Interactive Educational Platform"
               /></a>
 
               <div class="project-details">
-                <p class="project-title">Tutor</p>
-                <p class="details">Design + Development</p>
+                <p class="project-title">Interactive Educational Platform</p>
+                <p class="project-desc">User-friendly educational website with intuitive navigation and engaging visual design.</p>
+                <div class="tech-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>Responsive</span>
+                </div>
               </div>
             </div>
-            <div class="card-item">
-              <a href="https://rad-muffin-403902.netlify.app/" target="_blank"
-                ><img src="./img/news.webp" alt="Grid News Website"
+
+            <!-- Project 5: News Grid -->
+            <div class="card-item" data-category="design">
+              <a href="https://rad-muffin-403902.netlify.app/" target="_blank" class="card-image-link"
+                ><img src="./img/news.webp" alt="Modern News Portal"
               /></a>
 
               <div class="project-details">
-                <p class="project-title">News Grid</p>
-                <p class="details">Design + Development</p>
+                <p class="project-title">Modern News Portal</p>
+                <p class="project-desc">Clean, grid-based news layout with category filtering and mobile-first approach.</p>
+                <div class="tech-tags">
+                  <span>CSS Grid</span>
+                  <span>Flexbox</span>
+                  <span>Responsive</span>
+                  <span>HTML5</span>
+                </div>
               </div>
             </div>
-            <div class="card-item">
+
+            <!-- Project 6: E-commerce Landing -->
+            <div class="card-item" data-category="design">
               <a
                 href="https://melodious-lamington-14c084.netlify.app/"
                 target="_blank"
+                class="card-image-link"
               >
-                <img src="./img/freshdeals.webp" alt="Fresh Deals Website"
+                <img src="./img/freshdeals.webp" alt="E-commerce Product Showcase"
               /></a>
 
               <div class="project-details">
-                <p class="project-title">Fresh Deals</p>
-                <p class="details">Design + Development</p>
+                <p class="project-title">E-commerce Product Showcase</p>
+                <p class="project-desc">Modern e-commerce landing page with product catalog and promotional sections.</p>
+                <div class="tech-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>E-commerce</span>
+                </div>
               </div>
             </div>
           </div>
@@ -478,6 +528,43 @@
             openCalendly(url);
           });
         });
+
+        // Portfolio Filter Functionality
+        const filterButtons = document.querySelectorAll(".work-menu li");
+        const portfolioItems = document.querySelectorAll(".card-item");
+
+        filterButtons.forEach((button) => {
+          button.addEventListener("click", function (e) {
+            e.preventDefault();
+            
+            // Remove active class from all buttons
+            filterButtons.forEach((btn) => btn.classList.remove("active"));
+            
+            // Add active class to clicked button
+            this.classList.add("active");
+            
+            // Get filter value from button text
+            const filterValue = this.textContent.trim().toLowerCase();
+            
+            // Filter portfolio items
+            portfolioItems.forEach((item) => {
+              const category = item.getAttribute("data-category");
+              
+              if (filterValue === "all") {
+                item.classList.remove("hide");
+              } else if (category === filterValue) {
+                item.classList.remove("hide");
+              } else {
+                item.classList.add("hide");
+              }
+            });
+          });
+        });
+
+        // Set "All" as active by default
+        if (filterButtons.length > 0) {
+          filterButtons[0].classList.add("active");
+        }
       });
     </script>
   </body>
